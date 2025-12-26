@@ -1,6 +1,6 @@
 import type { RouteObject } from 'react-router-dom';
 
-import EventsList from '../pages/EventsList';
+import YourEvents from '../pages/YourEvents';
 import Home from '../pages/Home';
 import Layout from '../pages/Layout';
 
@@ -18,8 +18,8 @@ export const routeConfig: RouteObject[] = [
                 element: <Home />,
             },
             {
-                path: 'EventsList',
-                element: <EventsList />,
+                path: 'YourEvents',
+                element: <YourEvents />,
             },
         ],
     },

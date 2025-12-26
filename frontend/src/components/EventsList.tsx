@@ -7,8 +7,8 @@ import {
 } from "@mui/material";
 
 
-
 const EventsList : React.FC = () => {
+    
     return(
     <Box 
         sx = {{
@@ -19,4 +19,4 @@ const EventsList : React.FC = () => {
     );
 };
 
-export default EventsList ;
+export default EventsList;

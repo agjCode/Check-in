@@ -25,6 +25,7 @@ const TopBar: React.FC = () => {
                 justifyContent: "space-evenly",
                 alignItems: "center",
                 flexGrow: 1,
+                gap: 1,
               }}
             >
                     <NavLink 
@@ -38,7 +39,7 @@ const TopBar: React.FC = () => {
                     </NavLink>
 
                     <NavLink 
-                        to="/EventsList"
+                        to="/YourEvents"
                         style={({ isActive }) => ({
                         color: isActive? theme.palette.grey[500]: "inherit",
                         textDecoration: isActive ? 'underline' : 'none',

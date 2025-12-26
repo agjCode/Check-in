@@ -12,7 +12,6 @@ const Home : React.FC = () => {
     return(
         <Box 
             sx = {{
-            
             flexGrow: 1,
             }}
         >

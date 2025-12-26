@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Outlet } from "react-router-dom";
 import { MainComponent } from "../components/MainComponent";
 import { TopBar } from "../components/TopBar";
@@ -21,6 +21,7 @@ const Layout : React.FC = () => {
                 }}
             >
                 <Outlet />
+                Dude
             </Box>
         
         </MainComponent>
